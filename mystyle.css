@@ -1,0 +1,122 @@
+body {
+  background-color: #edeeff;
+  color: #ee2f06;
+}
+
+#ec {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#ec td {
+  border: 5px solid #6e72bb;
+  padding: 8px;
+}
+
+#ec tr:nth-child(odd) {
+  background-color: #ece0f5;
+}
+
+#ec tr:hover {
+  background-color: #f1f1f1;
+}
+
+#ec th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #cfb6fc;
+}
+
+#contact {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#contact td {
+  border: 5px solid #6e72bb;
+  padding: 9px;
+}
+
+#contact tr:nth-child(odd) {
+  background-color: #ece0f5;
+}
+
+#contact tr:hover {
+  background-color: #f1f1f1;
+}
+
+#contact th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #ece0f5;
+  color: navy;
+}
+
+#ac {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#ac td {
+  border: 5px solid #6e72bb;
+  padding: 9px;
+}
+
+#ac tr:nth-child(odd) {
+  background-color: #ece0f5;
+}
+
+#ac tr:hover {
+  background-color: #f1f1f1;
+}
+
+#ac th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #ece0f5;
+  color: navy;
+}
+.drop {
+  background-color: #cfb6fc;
+  color: navy;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cf6def;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column2 {
+  float: right;
+  width: 85%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+
